@@ -22,6 +22,8 @@
 			
 			<label id="objectif">Message :</label>
 			<textarea rows="4" cols="40" name="message"></textarea>
+			
+			<input type="submit" value="send">
 		</form>
 	</div>
 </footer>
