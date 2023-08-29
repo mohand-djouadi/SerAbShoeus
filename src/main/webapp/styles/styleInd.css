@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0:
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.menu {
+    float: left;
+    margin: 20px 5px;
+}
+.signlog {
+	float: right;
+	margin: 20px 5px
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+header ul li a {
+	text-decoration-line: none;
+	color: lightcyan;
+}
+header ul li a:hover {
+	text-decoration-line: none;
+	color: #7B1FA2;
+}
+.signlog ul li a {
+	text-decoration-line: none;
+	color: lightcyan;
+	padding: 13px;
+	border: 2px solid #7B1FA2;
+	border-radius: 25%;
+}
+.tolbar {
+	width:100%;
+	height: 230px;
+	background-image: url('../images/toolbarbg.avif');
+	background-size: 100% 99%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.tolbar p {
+    margin: 0;
+    text-align: center;
+    padding: 25px 0 0 0 ;
+    font-size: 20px;
+    color: #7B1FA2;
+    font-family: cursive;
+    margin-left: 690px;
+    margin-bottom: 20px;
+    padding-top: 15px; 
+}
+.slogan p {
+	margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: chocolate;
+    margin-left: 690px; 
+    margin-bottom: 60px;
+}
+.tolbar p span {
+    font-size: 25px;
+    font-family: fantasy;
+    color: burlywood;
+}
+.tolbar a {
+	margin: 0 0 0 870px;
+    text-align: center;
+    font-size: 20px;
+    color: #7B1FA2;
+    padding: 15px;
+    text-decoration-line: none;
+    border: 2px solid #7B1FA2;
+    border-radius: 25%;
+}
+.tolbar a:hover {
+	background-color :#7B1FA2;
+	color: lightcyan;
+}
+footer {
+	width: 100%;
+	height: 370px;
+	background-color: rgba(0,0,0,.6);
+}
+.socials ul li a i{
+	font-size: 35px;
+	margin: 0 14px;
+}
+footer .contact-form {
+	float: right;
+	background-color: rgba(0,0,0,.4);
+	padding: 20px 15px;
+	height: 370px;
+	border-radius: 5%;
+}
+footer .contact-form input {
+	height: 40px;
+	margin: 20px 0;
+} 
+footer .contact-form input,footer .contact-form textarea {
+	display: block;
+	width: 460px;
+	margin: 20px 15px;
+	border-radius: 5px;
+}
+footer .records {
+	float: left;
+}
+footer ul li a {
+    color: lightcyan;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+footer ul li a:hover {
+	color: #7B1FA2;
+}
+h3 {
+    font-style: italic;
+    font-size: 25px;
+    font-family: cursive;
+    color: lightcyan;
+    text-align: center;
+}
+
+
+
