@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="../styles/styleSign.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/styles/styleSign.css" rel="stylesheet">
 <title>Sign in</title>
 </head>
 <body>

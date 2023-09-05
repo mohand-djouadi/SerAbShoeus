@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="../styles/styleCont.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/styles/styleCont.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d477c35a70.js" crossorigin="anonymous"></script>
 <title>Contact</title>
 </head>

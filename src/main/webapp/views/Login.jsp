@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <script src="https://kit.fontawesome.com/d477c35a70.js" crossorigin="anonymous"></script>
-<link href="../styles/styleLog.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/styles/styleLog.css" rel="stylesheet" type="text/css">
 <title>Log in</title>
 </head>
 <body>
