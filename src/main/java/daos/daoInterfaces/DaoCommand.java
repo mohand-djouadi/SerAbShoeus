@@ -9,7 +9,6 @@ import java.util.List;
 public interface DaoCommand {
 	
 	public List<command> getAllCommand(user user);
-	public List<shoeus> getCommandContains(command command);
 	public void addCommand(command command);
 	public void deleteCommand(command command);
 }

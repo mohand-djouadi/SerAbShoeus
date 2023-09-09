@@ -7,6 +7,7 @@ import java.util.List;
 public interface DaoContains {
 	
 	public List<contains> getContains();
+	public List<contains> getCommandContains(command command);
 	public void addContain(contains contains);
 	public void updateContainQuantity(contains contain, int qty);
 	public void deleteContain(int idcmd, int idsh);
